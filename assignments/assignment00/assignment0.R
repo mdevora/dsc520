@@ -50,3 +50,7 @@ class(z)
 
 ## Check the class of the variable class_name using the class() function
 class(class_name)
+
+## Print to PDF
+knitr::stitch('assignment0.R')
+
